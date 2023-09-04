@@ -1,0 +1,44 @@
+.light-table-filter {margin-bottom: 5px;}
+table.members_details { width: 100%; 	border-collapse: collapse; 	}
+.members_details tr:nth-of-type(odd) { background: #eee; }
+.members_details th { background: #333; color: white; font-weight: bold; }
+.members_details td, .members_details th {padding: 6px; border: 1px solid #ccc;text-align: left;}	
+
+
+
+
+
+.search {
+  width: 80%;
+  position: relative;
+  display: flex;
+margin: auto;
+}
+
+.searchTerm {
+  width: 80%;
+  border: 3px green solid;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: green;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  background:green;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
